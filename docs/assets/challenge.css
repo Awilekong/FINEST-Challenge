@@ -11,6 +11,7 @@
 .organizer h3 a{color:#173e58;text-decoration:none}
 .organizer h3 a:hover{text-decoration:underline;text-underline-offset:4px}
 .organizer p{font:14px/1.55 Arial,Helvetica,sans-serif;color:#363d42;max-width:235px;margin:auto;text-wrap:balance}
+.organizer .organizer-position{font-size:14px;font-weight:600;line-height:1.45;color:var(--gold);margin:0 auto 8px}
 .portrait-initials{display:grid;place-items:center;background:#edf1f3;color:#557181;font:400 42px/1 Georgia,serif;letter-spacing:.03em}
 @media(min-width:768px) and (max-width:1023px){.organizers{grid-template-columns:repeat(4,minmax(0,1fr));gap:30px 20px}.organizer-portrait{width:140px;height:auto}.organizer h3{font-size:16px}.organizer p{font-size:12px}}
 @media(max-width:767px){.organizers{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 20px}.organizer-portrait{width:140px;height:auto;margin-bottom:14px}.organizer h3{font-size:16px}.organizer p{font-size:12px;line-height:1.5}.portrait-initials{font-size:34px}}
